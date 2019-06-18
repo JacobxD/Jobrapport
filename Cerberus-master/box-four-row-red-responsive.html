@@ -28,7 +28,15 @@
 
     <!-- CSS Reset : BEGIN -->
     <style>
+				@font-face {
+  font-family: 'Gothic A1';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gothic A1 Regular'), local('GothicA1-Regular'), url(https://fonts.gstatic.com/s/gothica1/v5/CSR94z5ZnPydRjlCCwl6ac0oQNM8mO4FeAXaTlFCBWrC79L96YGeIbbpiRKNxzH8xvScSeIIosz9Kw.0.woff2) format('woff2');
+  unicode-range: U+f9ca-fa0b, U+ff03-ff05, U+ff07, U+ff0a-ff0b, U+ff0d-ff19, U+ff1b, U+ff1d, U+ff20-ff5b, U+ff5d, U+ffe0-ffe3, U+ffe5-ffe6;
+}
 
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:400,800');
         /* What it does: Remove spaces around the email design added by some email clients. */
         /* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
         html,
@@ -153,6 +161,8 @@
     <!-- Progressive Enhancements : BEGIN -->
     <style>
 
+
+
         /* What it does: Hover styles for buttons */
         .button-td,
         .button-a {
@@ -240,7 +250,7 @@
 	2. center tag: for Gmail and Inbox mobile apps and web versions of Gmail, GSuite, Inbox, Yahoo, AOL, Libero, Comcast, freenet, Mail.ru, Orange.fr
 	3. mso conditional: For Windows 10 Mail
 -->
-<body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #ececec;">
+<body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #eee;">
 	<center style="width: 100%; background-color: #ececec;">
     <!--[if mso | IE]>
     <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #ececec;">
@@ -282,7 +292,7 @@
             <!-- Hero Image, Flush : BEGIN -->
             <tr>
                 <td style="background-color: #ffffff;">
-                    <img src="https://www.jobindex.dk/img/cms/FrokostGodeKollegaer.jpg" width="610" height="" alt="alt_text" border="0" style="width: 100%; max-width: 610px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 15px; color: #555555; margin: auto;" class="g-img">
+                    <img src="https://www.jobindex.dk/img/cms/jobrapport-hero-test2.jpg" width="610" height="" alt="alt_text" border="0" style="width: 100%; max-width: 610px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 15px; color: #555555; margin: auto;" class="g-img">
                 </td>
             </tr>
             <!-- Hero Image, Flush : END -->
@@ -292,15 +302,15 @@
                 <td style="background-color: #ffffff;">
                     <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                         <tr>
-                            <td style="padding: 20px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #273A59;">
-                                <h1 style="margin: 0 0 10px; font-size: 25px; line-height: 30px; color: #273A59; font-weight: normal;">Hej,</h1>
+                            <td style="padding: 20px; font-family: 'Gothic A1', sans-serif; font-size: 15px; line-height: 20px; color: #273A59;">
+                                <h1 style="margin: 0px 0px 10px 0px; font-size: 25px; line-height: 30px;">Min Jobrapport</h1>
                                 <p style="margin: 0 0 10px;">
 									Hvordan klarer din jobannonce sig – fanger du de rigtige kandidater? Gå bag om tallene for at forstå, om din kommunikation virker.   
 									</p>
                                 <ul style="padding: 0; margin: 0; list-style-type: disc;">
 										<li style="margin: 0 0 10px 20px;"><b>Visninger</b>: Tallet viser, hvor mange der har været eksponeret for din jobannonce, og dermed hvor mange potentielle kandidater, du har til din stilling.  </li>
 										<li style="margin: 0 0 10px 20px;"><b>Kliks</b>: Antallet af klik på din jobannonce fortæller hvor mange kandidater, der er interesserede i netop den stilling.  </li>
-										<li style="margin:0 0 10px 20px;"><b>Interesserede:</b> Dette er en liste over relevante eller interesserede kandidater, hvor du selv kan række ud til de mest interessante. Kandidater på listen har trykket ’Vis interesse’ på jobannoncen eller via et CV-match samt er følgere af din virksomhed, som har en Jobagent eller et CV, der matcher annoncens kriterier.  </li>
+										<li style="margin:0 0 10px 20px;"><b>Interesserede:</b> Dette er en liste over relevante eller interesserede kandidater, hvor du selv kan række ud til de mest interessante. Kandidater på listen har trykket ’Vis interesse’ på jobannoncen eller til et CV-match, eller vist interesse for din virksomhed, som har en Jobagent eller et CV, der matcher annoncens kriterier.  </li>
 										<li style="margin: 0 0 0 20px;"><b>Ansøgninger:</b> Har du Jobindex QuickApply, kan du se, hvor mange ansøgninger der er gået igennem systemet. </li>
 								</ul>
 								<div style="display:none;">&nbsp;</div> 
@@ -358,9 +368,8 @@
 			<td style="padding: 10px; background-color: #c9ced5;">
 					<table>
 						<tr>
-							<td  width="580" style="background-color: #ffffff; padding: 20px 20px 0 20px; font-family: sans-serif; font-size: 15px; ">
-								<a style="color: #b41018;" href="https://jobindex.dk">Ejendomsfunktionær til Servicecenter København</a>
-								<div style="margin-top: 5px;"><p>21/10 2018 - 25/11 2018</div>
+							<td  width="580" style="background-color: #ffffff; padding: 20px 20px 30px 20px; font-family: sans-serif; font-size: 15px; ">
+								<div style="margin-right: 10px; border-radius: 100px; height: 10px; width: 10px; background-color: forestgreen; color: #fff; display: inline-block;"> </div><a style="display: inline; color: #b41018; text-decoration: none; " href="https://jobindex.dk">Tømrermester til entreprenør- og tømrerkoncern i stærk fremdrift</a>
 							</td>
 						</tr>
 									
@@ -462,9 +471,13 @@
 						</table>
 					</td>
 				</tr>
-
 				<tr>
-						<td style="padding: 10px; background-color: #ffffff;">
+					<td align="center" style="padding: 10px 10px 20px 10px; background-color: #ffffff;" >
+						<p style="font-family: sans-serif; text-align: center; color:#ccc; display: inline;">Liggetid: 16 dage</p><p style="margin-left: 30px; font-family: sans-serif; text-align: center; color:#ccc; display: inline;">Start: 21/5-2018</p><p style="font-family: sans-serif; text-align: center; color:#ccc; display: inline; margin-left: 30px;">Udløb: 21/5-2018</p>
+					</td>
+				</tr>
+				<tr>
+						<td style="padding: 0 px; background-color: #ffffff;">
 						</td>
 				<tr>
 				
@@ -480,9 +493,8 @@
 				<td style="padding: 10px; background-color: #c9ced5;">
 						<table>
 							<tr>
-								<td  width="580" style="background-color: #ffffff; padding: 20px 20px 0 20px; font-family: sans-serif; font-size: 15px; ">
-									<a style="color: #b41018;" href="https://jobindex.dk">Tømrermester til entreprenør- og tømrerkoncern i stærk fremdrift</a>
-									<p style="margin-top: 5px;">10/10 2018 - 25/11 2018</p>
+								<td  width="580" style="background-color: #ffffff; padding: 20px 20px 30px 20px; font-family: sans-serif; font-size: 15px; ">
+									<div style="margin-right: 10px; border-radius: 100px; height: 10px; width: 10px; background-color: #b41018; color: #fff; display: inline-block;"> </div><a style="display: inline; color: #b41018; text-decoration: none; " href="https://jobindex.dk">Tømrermester til entreprenør- og tømrerkoncern i stærk fremdrift</a>
 								</td>
 							</tr>
 		
@@ -581,16 +593,22 @@
 											</table>
 										</td>
 										<!-- Column : END -->
+
 								</tr>
 							</table>
 						</td>
+
 					</tr>
-	
+						<tr>
+						<td align="center" style="padding: 10px 10px 20px 10px; background-color: #ffffff;" >
+							<p style="font-family: sans-serif; text-align: center; color:#ccc; display: inline;">Start: 21/5-2018</p><p style="font-family: sans-serif; text-align: center; color:#ccc; display: inline; margin-left: 40px;">Udløb: 21/5-2018</p>
+						</td>
+					</tr>
 					<tr>
-							<td style="padding: 10px; background-color: #ffffff;">
+							<td style="padding: 0 px; background-color: #ffffff;">
 							</td>
 					<tr>
-					
+
 						</table>
 					</td>
 				</tr>	
@@ -605,9 +623,8 @@
 			<td style="padding: 10px; background-color: #c9ced5;">
 					<table>
 						<tr>
-							<td  width="580" style="background-color: #ffffff; padding: 20px 20px 0 20px; font-family: sans-serif; font-size: 15px; ">
-								<a style="color: #b41018;" href="https://jobindex.dk">Produktionsmedarbejder</a>
-								<p style="margin-top: 5px;">10/10 2018 - 25/11 2018</p>
+							<td  width="580" style="background-color: #ffffff; padding: 20px 20px 30px 20px; font-family: sans-serif; font-size: 15px; ">
+								<div style="margin-right: 10px; border-radius: 100px; height: 10px; width: 10px; background-color: #b41018; color: #fff; display: inline-block;"> </div><a style="display: inline; color: #b41018; text-decoration: none; " href="https://jobindex.dk">Tømrermester til entreprenør- og tømrerkoncern i stærk fremdrift</a>
 							</td>
 						</tr>
 	
@@ -713,7 +730,12 @@
 				
 
 				<tr>
-						<td style="padding: 10px; background-color: #ffffff;">
+					<td align="center" style="padding: 10px 10px 20px 10px; background-color: #ffffff;" >
+						<p style="font-family: sans-serif; text-align: center; color:#ccc; display: inline;">Start: 21/5-2018</p><p style="font-family: sans-serif; text-align: center; color:#ccc; display: inline; margin-left: 40px;">Udløb: 21/5-2018</p>
+					</td>
+				</tr>
+				<tr>
+						<td style="padding: 0 px; background-color: #ffffff;">
 						</td>
 				<tr>
 			
@@ -732,7 +754,7 @@
 					<tr>
 						<td style="padding: 0 20px 20px; background-color: #c9ced5;">
 							<!-- Button : BEGIN -->
-							<table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto; ">
+							<table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto;">
 								<tr>
 									<td class="button-td button-td-primary" style="border-radius: 0px; background: #273A59;">
 										<a class="button-a button-a-primary" href="https://google.com/" style="background-color:#c9ced5; border: 1px solid #273A59; font-family: sans-serif; font-size: 15px; line-height: 15px; text-decoration: none; padding: 13px 17px; color: #273A59; display: block; border-radius: 0px;">Se alle detaljerne her</a>
@@ -779,7 +801,7 @@
 	                                <tr>
 	                                    <td dir="ltr" valign="top" style="font-family: sans-serif; font-size: 15px; line-height: 20px; color: #273A59; padding: 10px; text-align: left;" class="center-on-narrow">
 	                                        <h2 style="margin: 0 0 5px 0; font-family: sans-serif; font-size: 18px; line-height: 22px; color: #273A59; font-weight: bold;">Hvilke kandidater tiltrækker du?</h2>
-	                                        <p style="margin: 0 0 10px 0;">På "<a style="color: #b41018;" href="www.google.com">Din kundeside</a>” kan du statestik på alder, uddannelse og lønforventning på kandidater, der har klikket på dine jobannoncer.</p>
+	                                        <p style="margin: 0 0 10px 0;">På <a style="color: #b41018; text-decoration: none;" href="www.google.com">Din kundeside</a> kan du statestik på alder, uddannelse og lønforventning på kandidater, der har klikket på dine jobannoncer.</p>
 	                                        
 	                                    </td>
 									</tr>
@@ -818,7 +840,7 @@
 	                                <tr>
 	                                    <td dir="ltr" valign="top" style="font-family: sans-serif; font-size: 15px; line-height: 20px; color: #273A59; padding: 10px; text-align: left;" class="center-on-narrow">
 	                                        <h2 style="margin: 0 0 5px 0; font-family: sans-serif; font-size: 18px; line-height: 22px; color: #273A59; font-weight: bold;">Fra visninger til læsninger</h2>
-											<p style="margin: 0 0 10px 0;">Vi har samlet <a style="color: #b41018;" href="www.google.dk">5 gode råd</a> til at omsætte dine visninger til læsninger</p>
+											<p style="margin: 0 0 10px 0;">Vi har samlet <a style="color: #b41018; text-decoration: none;" href="www.google.dk">5 gode råd</a> til at omsætte dine visninger til læsninger</p>
 
 
 	                                    </td>
@@ -838,11 +860,11 @@
 	            <td style="background-color: #ffffff;">
 	                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
 	                    <tr>
-	                        <td style="text-align: center; padding: 20px 0 20px 0; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
+	                        <td style="text-align: center; padding: 20px 0 20px 0; font-family: sans-serif; font-size: 15px; line-height: 20px;  color: #273A59;">
 								<p style="margin: 0">Har du brug for hjælp til at forbedre din jobannonces performance? Så ring til mig.</p>
 								<p style="margin: 10px 0px 10px 0px;">···</p>
 								<p style="margin: 0px 0px 10px 0px;">Med venlig hilsen</p>
-								<p style="margin: 0; padding-bottom: 20px;">Jacob Holm  <b>·</b>  <a style="color: #b41018;" href="www.google.dk">Jho@jobindex.dk</a> <b>·</b>  +45 61408082</p>
+								<p style="margin: 0; padding-bottom: 20px;">Jacob Holm  <b>·</b>  <a style="color: #b41018; text-decoration: none;" href="www.google.dk">Jho@jobindex.dk</a> <b>·</b>  +45 61408082</p>
 
 	                        </td>
 	                    </tr>
